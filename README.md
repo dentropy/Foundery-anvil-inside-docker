@@ -28,3 +28,10 @@ You can update the `entrypoint` inside anvil.docker-compose.yml in order to set 
 docker-compose -f help.docker-compose.yml up
 
 ```
+
+## Next Steps
+
+* Link to docs in my public knowledge base
+* Publish docker image to public container registry
+* Write tutorial on more complex anvil features such as `--dump-state`
+* Test [filtering with ethersjs](https://docs.ethers.org/v5/concepts/events/#events--logs-and-filtering)
