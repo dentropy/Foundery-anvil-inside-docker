@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  anvil:
+    image: anvil
+    entrypoint: '/usr/local/bin/anvil help'
+    # env_file: .env
+    ports:
+      - "8545:8545"
+
