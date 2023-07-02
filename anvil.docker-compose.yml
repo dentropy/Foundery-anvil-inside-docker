@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  anvil:
+    image: anvil
+    entrypoint: '/usr/local/bin/anvil --block-time 5 --host 0.0.0.0 -m "minimum symptom minute gloom tragic situate silver mechanic salad amused elite beef"'
+    # env_file: .env
+    ports:
+      - "8545:8545"
+
