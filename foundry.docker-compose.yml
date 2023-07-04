@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  anvil:
+    image: ghcr.io/foundry-rs/foundry
+    entrypoint: '/usr/local/bin/anvil --block-time 5 --host 0.0.0.0'
+    ports:
+      - "8545:8545"
+

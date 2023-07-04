@@ -15,6 +15,14 @@ docker build -f anvil.Dockerfile -t anvil .
 docker-compose -f anvil.docker-compose.yml up
 
 ```
+
+## Using foundry's container
+``` bash
+
+docker-compose -f foundry.docker-compose.yml up
+
+```
+
 ## Adding custom anvil flags
 
 Checkout [Overview of Anvil - Foundry Book](https://book.getfoundry.sh/anvil/) to get an idea of Anvil's capabilities.
